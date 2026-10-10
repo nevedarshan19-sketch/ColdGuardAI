@@ -1,0 +1,12 @@
+flowchart TD
+    A[Sensor Simulator or CSV] --> B[Input Validation]
+    B --> C[Feature Engineering]
+    C --> D[Random Forest Classifier]
+    C --> E[Rule-Based Baseline]
+    D --> F[Risk Classification]
+    E --> F
+    F --> G[Streamlit Dashboard]
+    G --> H[Alerts Centre]
+    H --> I[(SQLite Alert Log)]
+    G --> J[CSV Reports]
+    H --> K[Operator Verification]
