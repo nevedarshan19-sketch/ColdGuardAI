@@ -8,9 +8,9 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
-from coldguard.data import generate_synthetic_data, validate_sensor_frame
-from coldguard.model import ColdGuardModel
-from coldguard.storage import add_alert, get_alerts, update_alert, clear_alerts
+from data import generate_synthetic_data, validate_sensor_frame
+from model import ColdGuardModel
+from storage import add_alert, get_alerts, update_alert, clear_alerts
 
 st.set_page_config(page_title="ColdGuard AI", page_icon="❄️", layout="wide", initial_sidebar_state="expanded")
 
