@@ -2,7 +2,7 @@ from __future__ import annotations
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score, recall_score, f1_score, confusion_matrix
-from .data import FEATURES, generate_synthetic_data
+from data import FEATURES, generate_synthetic_data
 
 class ColdGuardModel:
     def __init__(self):
